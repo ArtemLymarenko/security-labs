@@ -1,6 +1,7 @@
 package bigIntCli
 
 import (
+	"bis/lab1/fme"
 	"bufio"
 	"fmt"
 	"math/big"
@@ -8,7 +9,6 @@ import (
 	"os"
 	"strconv"
 	"strings"
-	"tpr/lab1/fme"
 )
 
 type Option string
