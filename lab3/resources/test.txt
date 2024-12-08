@@ -1,0 +1,4 @@
+RSA (Rivest-Shamir-Adleman) is one of the most widely used public-key cryptosystems for secure data transmission. It relies on the mathematical properties of large prime
+numbers and the difficulty of factoring large numbers. In RSA, each user has a pair of keys: a public key used for encryption and a private key used for decryption.
+The security of RSA is based on the assumption that factoring the product of two large primes is computationally infeasible. RSA is commonly used in applications such as secure email, digital signatures,
+and SSL/TLS for internet security.
