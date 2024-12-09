@@ -2,13 +2,10 @@ package mydes
 
 import (
 	"encoding/binary"
-	"math/rand"
-	"time"
 )
 
 func generateInitialVectorCBC() uint64 {
-	random := rand.New(rand.NewSource(time.Now().UnixNano()))
-	return random.Uint64()
+	return 9583712877648859154
 }
 
 func (c *cypher) EncryptCBC(data []byte) (result []byte, sign [8]byte) {

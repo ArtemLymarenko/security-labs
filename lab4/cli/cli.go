@@ -9,7 +9,7 @@ import (
 	"strings"
 )
 
-const resourceDir = "resources/"
+const resourceDir = "lab4/resources/"
 
 type Cli struct {
 	from      string
